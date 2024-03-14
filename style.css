@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+}
+
+.tagHeader {
+    display: flex;
+    padding: 1rem 0;
+    font-weight: 700;
+    font-size: 2.3rem;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.hero {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 50%;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column
+}
